@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ruta de Broti | Sistema de Atención Estudiantil</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="loadingScreen">
+
+<div class="loader">
+
+<img src="assets/broti-bebe.png" id="loaderBroti">
+
+<h2>Cargando la Ruta de Broti...</h2>
+
+<div class="progressBar">
+
+<div class="progress"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<section id="welcome">
+
+<div class="backgroundOverlay"></div>
+
+<div class="welcomeContainer">
+
+<img
+src="assets/logo.png"
+class="logo">
+
+<h1>
+
+LA RUTA DE BROTI
+
+</h1>
+
+<h2>
+
+Sistema de Atención Estudiantil
+
+</h2>
+
+<p>
+
+Cada estudiante tiene una historia.
+
+Cada decisión puede cambiar su vida.
+
+Hoy tú serás quien guíe a Broti.
+
+</p>
+
+<button id="startButton">
+
+COMENZAR
+
+</button>
+
+</div>
+
+</section>
+
+<section id="story">
+
+<div class="storyContainer">
+
+<div class="storyImage">
+
+<img
+src="assets/broti-bebe.png"
+id="brotiStory">
+
+</div>
+
+<div class="storyText">
+
+<h2>
+
+Hola...
+
+Soy Broti 🌱
+
+</h2>
+
+<p>
+
+Hace mucho tiempo era solamente una pequeña semilla.
+
+No entendía por qué algunos estudiantes sonreían mientras otros escondían su tristeza.
+
+Pensaba que todos aprendían igual.
+
+Pero descubrí algo muy importante...
+
+</p>
+
+<p>
+
+Cada estudiante vive una historia distinta.
+
+Algunos necesitan que alguien los escuche.
+
+Otros necesitan protección.
+
+Otros solo esperan que un adulto los observe.
+
+</p>
+
+<p>
+
+Por eso existe el Sistema de Atención Estudiantil.
+
+Y hoy tú aprenderás a utilizarlo.
+
+</p>
+
+<button id="continueStory">
+
+Continuar
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="mission">
+
+<div class="missionCard">
+
+<h1>
+
+Tu misión
+
+</h1>
+
+<p>
+
+Durante este recorrido aparecerán diferentes situaciones reales.
+
+En cada una deberás tomar una decisión.
+
+</p>
+
+<div class="rules">
+
+<div class="rule">
+
+<div class="number">
+
+1
+
+</div>
+
+<h3>
+
+Observa
+
+</h3>
+
+<p>
+
+Detecta señales de alerta.
+
+</p>
+
+</div>
+
+<div class="rule">
+
+<div class="number">
+
+2
+
+</div>
+
+<h3>
+
+Escucha
+
+</h3>
+
+<p>
+
+No juzgues.
+
+Comprende.
+
+</p>
+
+</div>
+
+<div class="rule">
+
+<div class="number">
+
+3
+
+</div>
+
+<h3>
+
+Actúa
+
+</h3>
+
+<p>
+
+Aplica correctamente la Ruta SAE.
+
+</p>
+
+</div>
+
+</div>
+
+<button id="goMap">
+
+Iniciar recorrido
+
+</button>
+
+</div>
+
+</section>
+
+<section id="map">
+
+<div class="mapBackground">
+
+<img
+src="assets/mapa.png"
+id="mapImage">
+
+<div id="brotiMap">
+
+<img src="assets/broti-bebe.png">
+
+</div>
+
+<div class="level unlocked">
+
+1
+
+</div>
+
+<div class="level locked">
+
+2
+
+</div>
+
+<div class="level locked">
+
+3
+
+</div>
+
+<div class="level locked">
+
+4
+
+</div>
+
+<div class="level locked">
+
+5
+
+</div>
+
+</div>
+
+</section>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
