@@ -1,0 +1,1 @@
+const s=document.getElementById('start'),n=document.getElementById('next');s.onclick=()=>{document.querySelector('.hero').classList.add('hidden');story.classList.remove('hidden')};n.onclick=()=>{story.classList.add('hidden');map.classList.remove('hidden')}
